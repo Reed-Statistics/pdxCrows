@@ -1,0 +1,28 @@
+Package: pdxCrows
+Title: Counting Crows
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Gabe",
+           family = "Preising",
+           role = c("aut", "cre"),
+           email = "gabpreisin@reed.edu")
+    person(given = "Sarah",
+           family = "Maebius",
+           role = c("aut", "cre"),
+           email = "samaebius@reed.edu")
+    person(given = "Ian",
+           family = "Cates-Doglio",
+           role = c("aut", "cre"),
+           email = "ianecates@reed.edu")
+Description: This package loads the crows dataset. Each row represents a 
+    count of the crows spotted on a given quarter block during Gary 
+    Granger's walks.This documentation of the crow invasion in Portland 
+    helps determine the potentially catastrophic nature of the crows.
+Depends:
+    R (>= 3.1)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/Reed-Statistics/pdxCrows
+BugReports: https://github.com/Reed-Statistics/pdxCrows/issues
+RoxygenNote: 7.0.2
